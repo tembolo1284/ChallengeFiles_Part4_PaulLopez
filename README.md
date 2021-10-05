@@ -1,9 +1,8 @@
 # Project Title
 
-This is the Crypto Arbitrage Analyzer Application for challenge 3! I pull in two CSV files with prices from two 
-different exchanges. I spend the first part of the code cleaning the data and removing blanks and NAs from each file. I also remove the
-dollar sign from the close column from both csv files so I can then do some arithmetic calculations on them in the second
-part of the analysis.
+This is the Risk Return Analysis Application for challenge 4! I pull in one CSV file with prices from four funds and the S&P 500.
+I do a daily return analysis and comparison and plot a chart to see the four funds and the S&P 500. I then create box plots
+with and without the S&P 500 to compare the volatility of the S&P 500 to the funds, and to compare the funds with themselves.
 
 ---
 
@@ -20,7 +19,7 @@ from pathlib import Path
 
 I have python version 3.7.10 and git version 2.33.0.windows.2 installed on a laptop running windows 10 pro.
 
-I launch jupyter lab from the gitbash terminal and then run the crypto_arbitrage noteback from the 
+I launch jupyter lab from the gitbash terminal and then run the risk_return_analysis noteback from the 
 webpage that launches.
 
 
@@ -28,12 +27,8 @@ webpage that launches.
 
 ## Usage
 
-I have two csv files in the Resources folder.  They are bitstamp.csv and coinbase.csv.  All that needs to be
-done by the user is hit the double arrow and run the code. If they want to select different dates or timeframes, they
-will be able to change that.  They can also filter the profitable trade tolerance which is currently set to 1%
-
-The user is also free to change the scaling of any of the plots that are used throughout the code if they feel
-they want a slightly different picture of things.
+I have one csv file in the Resources folder named whale_navs.csv.  All that needs to be
+done by the user is hit the double arrow and run the code. 
 
 That's it!
 
