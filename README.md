@@ -8,9 +8,9 @@ I then analyze the risk of the funds and S&P 500 by running analysis of the stan
 I conclude by doing a rolling 21 day std deviation calculation and I plot all the funds together with the S&P 500, and the 4 funds just by themselves.
 
 The next step in the analysis is calculating the sharpe ratios and plotting them in a box chart. It quickly becomes clear 
-which fund has the best and worst risk-return profile
+which funds have the best and worst risk-return profiles.
 
-The final step in the analysis is calculating the rolling 60s betas for the two best portfolios of the four I was originally given. I then plot them and draw conclusions.
+The final step in the analysis is calculating the rolling 60 day betas for the two best portfolios of the four I was originally given. I then plot them and draw conclusions.
 ---
 
 ## Technologies
